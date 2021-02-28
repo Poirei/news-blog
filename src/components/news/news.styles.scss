@@ -1,6 +1,6 @@
 .news {
   text-align: center;
-  height: 100vh;
+  // height: 100vh;
   margin: 0 auto;
   padding: 2rem 2rem 0 2rem;
   background-color: #161b22;
@@ -18,7 +18,7 @@
   }
 
   & p {
-    text-align: center;
+    text-align: justify;
     padding: 3rem;
   }
 }
