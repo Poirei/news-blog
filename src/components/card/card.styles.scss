@@ -1,0 +1,29 @@
+.card {
+  height: 15rem;
+  width: auto;
+  padding: 1.2rem;
+  border-radius: 0.5rem;
+  background-color: #0d1117;
+  display: flex;
+  margin-bottom: 2rem;
+  transition: all .2s ease;
+
+  &:hover {
+    box-shadow: 3px 3px 4px rgba(21, 41, 129, 0.199);
+  }
+
+  .img-container {
+    height: 100%;
+    width: 12rem;
+    object-fit: cover;
+  }
+
+  &__img {
+    height: 100%;
+  }
+
+  &__title {
+    font-size: 1.8rem;
+    margin-left: 17.7rem;
+  }
+}
